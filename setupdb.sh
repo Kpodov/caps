@@ -17,7 +17,7 @@ CREATE TABLE lure_name_tst1 (
 SQL
 
 # data.json will be replace by eve.json
-cat data.json \
+cat /home/$USER/logs/health/data.json \
 | \
 psql -U postgres -h localhost -p 5432 dbsuri -c "COPY lure_name_tst1 (data) FROM STDIN;"
 
