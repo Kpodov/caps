@@ -9,8 +9,10 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 #sudo systemctl status docker
 sudo usermod -aG docker ${USER}
-sudo apt install postgresql-client-common postgresql-client
+sudo apt install -y postgresql-client-common postgresql-client
 #id -nG
+
+source /home/ubuntu/.bashrc
 
 # install postgres10 and pgadmin4 as docker
 docker pull sameersbn/postgresql:10-2
