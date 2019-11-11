@@ -71,3 +71,5 @@ docker run -itd --restart always --publish 5050:5050 \
   --network="pgnetwork" \
   --detach \
   fenglc/pgadmin4
+
+pull-setup.sh
