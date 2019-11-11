@@ -1,1 +1,1 @@
-*/1 * * * * /root/rsync-pull.sh
+* * * * * /home/ubuntu/rsync-pull.sh
